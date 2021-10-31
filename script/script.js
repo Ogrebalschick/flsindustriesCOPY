@@ -8,7 +8,7 @@ $(document).ready(function() {
 			url: "mail.php", //Change
 			data: th.serialize()
 		}).done(function() {
-			document.location.href = "http://flsindustriescopy/form.html";
+			document.location.href = "form.html";
 		});
 		return false;
 	});
